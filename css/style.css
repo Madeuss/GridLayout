@@ -112,14 +112,17 @@ h1{
     transition: .5s all ease-in-out;
     font-size: 20px;
 }
+.box-calendar .content{
+    font-size: 20px;
+}
 .back{
     transition: .5s all ease-in-out; 
     overflow: hidden;
     backface-visibility: hidden;
     text-align: center;
     place-items: center;
-    transform: perspective(600px) rotateY(180deg);
-    background: #911d44;
+    transform: perspective(600px) rotateY(-180deg);
+    background: #a02850;
     width: 100%;
     height: 100%;
     position: absolute;
